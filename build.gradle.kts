@@ -71,3 +71,6 @@ tasks.register<Test>("testAreaCalculator") {
         events("passed", "skipped", "failed")
     }
 }
+application {
+    mainClass.set("com.motycka.edu.lesson01.MainKt")
+}
